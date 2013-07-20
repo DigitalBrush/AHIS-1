@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </header>
-        <!-- top bar -->
+         <!-- top bar -->
             <div class="navbar navbar-fixed-top">
                 <div class="navbar-inner">
                     <div class="container">
@@ -75,13 +75,14 @@
                             <ul class="clearfix" id="mobile-nav">
                                 
                                 <li>
-                                    <a href="<?php echo base_url() . 'dashboard'; ?>"><i class="icsw16-home icsw16-white"></i>&nbsp;&nbsp;Home</a>                                    
+                                    <a href="javascript:void(0)"><i class="icsw16-home icsw16-white"></i>&nbsp;&nbsp;Home</a>
+                                    
                                 </li>
                                 
                                 <li><a href="javascript:void(0)"><i class="icsw16-documents icsw16-white"></i>&nbsp;&nbsp;Cases</a>
                                   <ul>
                                         <li>
-                                            <a href="form_elements.html">Open New Case</a>
+                                            <a href="#">Open New Case</a>
                                         </li>
                                         <li>
                                             <a href="#">Open Existing Case</a>
@@ -99,6 +100,9 @@
                                     </ul>
                                 </li>
                                 <li><a href="javascript:void(0)"><i class="icsw16-megaphone icsw16-white"></i>&nbsp;&nbsp;Support Ticket</a>
+                                   
+                                </li>
+                                <li><a href="adduser.html"><i class="icsw16-user icsw16-white"></i>&nbsp;&nbsp;Add New User</a>
                                    
                                 </li>
                                 <li><a href="javascript:void(0)"><i class="icsw16-alert-2 icsw16-white"></i>&nbsp;&nbsp;Help</a>
